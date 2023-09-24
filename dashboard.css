@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefafa;
+}
+label{
+    font-style: italic;
+    padding: 50px;
+}
+select{
+    font-style: italic;
+    padding: 20px;
+    margin-bottom: 10px;
+    
+    
+}
+
+
+#add-class-form{
+    background-color: #e8e4b9;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    border: double;
+    text-align: center;
+    
+}
+h1 {
+    text-align: center;
+    align-items: center;
+    font-style: italic;
+}
+#class-timings{
+    background-color:#add7da;
+    width: 300px;
+    height: 30px;
+}
+
+#schedule{
+    background-color:#add7da;
+    width: 300px;
+    height: 30px;
+}
+
+#teacher-name{
+    background-color:#add7da;
+    width:300px;
+    height: 30px;
+}
+
+#course-name{
+    background-color:#add7da;
+    width: 300px;
+    height: 30px;
+}
+
+#section-name{
+    background-color:#add7da;
+    width: 300px;
+    height: 30px;
+}
+#batch-number{
+    background-color:#add7da;
+    width: 300px;
+    height: 30px;
+}
+
+#add-class-form {
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 20px;
+}
+
+#class-list {
+    margin: 20px;
+    background-color: #457fa0;
+    font-style: italic;
+    font-family: sans-serif;
+    
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #add7da;
+    border: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #4c96af;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

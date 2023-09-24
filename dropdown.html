@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"  href="dropdown.css">
+</head>
+<body>
+    <div class="input-container">
+        <input type="text" id="input-bar" placeholder="Enter your status">
+        <select id="status-dropdown">
+            <option value="present" selected>Present</option>
+            <option value="absent">Absent</option>
+            <option value="late">Late</option>
+            <option value="leave">Leave</option>
+        </select>
+    </div>
+    <button onclick="submitStatus()">Submit</button>
+    
+    <div class="attendance-form">
+        <h1>Class Attendance</h1>
+        <p>Enter your roll number:</p>
+        <input type="text" id="rollNumberInput" placeholder="Enter Roll Number">
+        <button onclick="markAttendance()">Mark Attendance</button>
+        <select id="attendanceStatus" disabled>
+            <option value="ontime">On Time</option>
+            <option value="late">Late</option>
+        </select>
+        <button onclick="changeStatus()">Change Status (Admin)</button>
+    </div>
+    
+        <h1>Student Attendance</h1>
+        <div id="student-list">
+            <div class="student">
+                <span class="student-name">Student 1</span>
+                <input type="checkbox" class="attendance-checkbox">
+            </div>
+            <div class="student">
+                <span class="student-name">Student 2</span>
+                <input type="checkbox" class="attendance-checkbox">
+            </div>
+            <!-- Add more students here -->
+        </div>
+        <button id="mark-attendance-btn">Mark Attendance</button>
+        <p id="attendance-status"></p>
+        <script src="dropdown.js"></script>
+    </body>
+    </html>
+    
+    
+
+
+
+
+    
